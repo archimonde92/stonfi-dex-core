@@ -6,7 +6,7 @@ chai.use(chaiBN(BN));
 import * as fs from "fs";
 import { Cell, beginCell, Address, Slice, toNano } from "ton";
 import { SmartContract, SendMsgAction } from "ton-contract-executor";
-import * as router from "../contracts/router";
+import * as router from "router";
 import { internalMessage, randomAddress, setBalance, setNetworkConfig } from "./helpers";
 
 describe("router tests", () => {

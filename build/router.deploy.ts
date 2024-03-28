@@ -1,4 +1,4 @@
-import * as router from "../contracts/router";
+import * as router from "router";
 import fs from "fs";
 import { Address, TupleSlice, WalletContract, Cell, beginCell } from "ton";
 import dotenv from "dotenv";
